@@ -10,5 +10,7 @@ public class Main {
 
 		LongJumpAthlete athlete = new LongJumpAthlete();
 		// Use Scanner to read from the file
+
+		
 	}
 }
