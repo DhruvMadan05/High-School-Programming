@@ -9,7 +9,8 @@
 
 ..Include a method to calculate the competitor's best attempt. 
 
-''Include a method to display all of the info: name, id, school, all 3 attempts and best. test test.
+''Include a method to display all of the info: name, id, school, all 3 attempts and best.
+
 
 
 */
