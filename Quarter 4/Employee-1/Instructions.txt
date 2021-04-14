@@ -1,0 +1,5 @@
+Create an Employee class - this is the parent/base class.
+Sub-classes should include:
+Hourly Emp
+Salary Emp
+Commission Emp
