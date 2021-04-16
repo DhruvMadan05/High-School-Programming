@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-
+		
 		LongJumpAthlete athlete = new LongJumpAthlete();
 		// Use Scanner to read from the file
 
