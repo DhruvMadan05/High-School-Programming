@@ -5,7 +5,6 @@ import java.io.File;
 import java.io.FileWriter;   // Import the FileWriter class
 import java.io.IOException;  // Import the IOException class to handle errors
 
-
 class Gradebook {
 	
 	private Student [] Student = new Student[4];
@@ -247,15 +246,15 @@ void setStudentName(){
 	void readGrades(int saveNumber) {
 
 		try {
-      File myObj = new File("Gradebook" + saveNumber + ".csv");
-      Scanner myReader = new Scanner(myObj);
+      		File myObj = new File("Gradebook" + saveNumber + ".csv");
+      		Scanner myReader = new Scanner(myObj);
 			int i = 0;
-      while (myReader.hasNextLine()) {
-        String data = myReader.nextLine();
-        String[] temp1;
+      		while (myReader.hasNextLine()) {
+        		String data = myReader.nextLine();
+        		String[] temp1;
 				String delimiter = ",";
-    		//Split data
-    		temp1 = data.split(delimiter);
+    			//Split data
+    			temp1 = data.split(delimiter);
 
 				//Start sending grades to each student
 				Student[i].addName(temp1[0]);
@@ -264,14 +263,11 @@ void setStudentName(){
 					Student[i].addGrade(submitGrade);
 				}
 				i++;
-      }
-      myReader.close();
-    } catch (FileNotFoundException e) {
-      System.out.println("An error occurred.");
-      e.printStackTrace();
-    }
-
-
-
+      		}
+      		myReader.close();
+    	} catch (FileNotFoundException e) {
+      		System.out.println("An error occurred.");
+      		e.printStackTrace();
+    	}
 	}
 }
