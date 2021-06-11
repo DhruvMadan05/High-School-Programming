@@ -1,0 +1,28 @@
+ //   Part 1  >>>>>>>>>>>>>>>>>>>
+    // Create your own date-time objects
+    //   in your programmer-defined class
+    //   including year, month, day, hour,
+    //   minute, second as private attributes
+    // Methods should include:
+    // A constructor, and setters and getters 
+    //  for each attribute 
+    // A display method: display all date-time objects
+    //   in military time (24 hr format)
+    //An increment method (and decrement method)
+    //   that adds (or subtracts) one second and 
+    //   displays the new date-time 
+    //    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    //  ++++++++++++++++++++++++++++++++++++
+    //    Part 2  DateTime +++++++++++++++++++
+    // Add method for Date Time objects created above. 
+    // (i.e. Calculate the closing date for a mortgage - 30 days)
+    //  +++++++++++++++++++++++++++++++++++++++
+    //  +++++++++++++++++++++++++++++++++++++
+
+     //    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    //     Part 3 DateTime    <<<<<<<<<<<<<<<<<<
+    //  Subtract 2 Date Time objects from above.
+    //  i.e.   Age calculator
+    //   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    //  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
